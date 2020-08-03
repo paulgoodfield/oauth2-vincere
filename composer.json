@@ -1,0 +1,31 @@
+{
+    "name": "paulgoodfield/oauth2-vincere",
+	"description": "Vincere OAuth 2.0 Client Provider for The PHP League OAuth2-Client",
+	"version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Goodfield",
+            "email": "paulgoodfield@gmail.com",
+            "homepage": "https://paulgoodfield.com"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authentication",
+		"vincere",
+		"crm"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PaulGoodfield\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
